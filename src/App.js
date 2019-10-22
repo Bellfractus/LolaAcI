@@ -1,5 +1,5 @@
 import React from 'react';
-import Myrr from '/Myryryor.jpg';
+import Myrr from 'src/Myryryor.jpg';
 import './App.css';
 
 function App() {
