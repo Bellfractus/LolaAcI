@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '1.png';
+import pic from '1.png';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>Welcome to Cybrynth</h1>
-     <img src={Logo} alt="Myrryr"/>
+     <img src={pic} alt="Myrryr"/></img>
       </header>
     </div>
   );
