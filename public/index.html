@@ -101,7 +101,39 @@
   <meta charset="UTF-8">
 </head>
 
-<body><div id="root"></div>
+<body><div id="root"></div><link rel='stylesheet' href='https://www.botlibre.com/css/chatlog.css' type='text/css'>
+<link rel='stylesheet' href='https://www.botlibre.com/css/blue_round_button.css' type='text/css'>
+<style>
+// You can customize the css styles here
+#botplatformbox {} #botplatformboxbar {} #botplatformboxbarmax {} #botplatformboxmin {} #botplatformboxmax {} #botplatformboxclose {} #botplatformbubble-text {} #botplatformbox-input {}
+</style>
+<script type='text/javascript' src='https://www.botlibre.com/scripts/sdk.js'></script>
+<script type='text/javascript'>
+SDK.applicationId = "6794825743079587906";
+SDK.backlinkURL = "http://www.botlibre.com/login?affiliate=myrra";
+var sdk = new SDKConnection();
+var web = new WebChatbotListener();
+web.connection = sdk;
+web.instance = "30396568";
+web.instanceName = "Krig Jera";
+web.prefix = "botplatform";
+web.caption = "Chat Now";
+web.boxLocation = "bottom-right";
+web.color = "#009900";
+web.background = "#fff";
+web.css = "https://www.botlibre.com/css/chatlog.css";
+web.version = 6.0;
+web.bubble = true;
+web.backlink = true;
+web.showMenubar = true;
+web.showBoxmax = true;
+web.showSendImage = true;
+web.showChooseLanguage = true;
+web.chatLog = true;
+web.popupURL = "https://www.botlibre.com/chat?&id=30396568&embedded=true&chatLog=true&facebookLogin=false&application=6794825743079587906&bubble=true&menubar=true&chooseLanguage=true&sendImage=true&background=%23fff&prompt=You+say&send=Send&css=https://www.botlibre.com/css/chatlog.css";
+web.createBox();
+</script>
+
   <div id="stats"></div>
   <div id="info" style='display:none'>
   </div>
